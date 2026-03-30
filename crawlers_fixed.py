@@ -383,9 +383,9 @@ def crawl_all_news_sources(articles_per_source: int = 10000, output_file: str = 
     
     all_sentences = []
     
-    # Crawl all sources
-    vnexpress_sentences = crawl_vnexpress(articles_per_source, max_pages=vnexpress_pages, max_sentences=max_sentences)
-    all_sentences.extend(vnexpress_sentences)
+    # # Crawl all sources
+    # vnexpress_sentences = crawl_vnexpress(articles_per_source, max_pages=vnexpress_pages, max_sentences=max_sentences)
+    # all_sentences.extend(vnexpress_sentences)
     
     # Stop if we've reached the maximum
     if len(all_sentences) < max_sentences:
@@ -413,7 +413,7 @@ def crawl_all_news_sources(articles_per_source: int = 10000, output_file: str = 
     # Summary
     print("=" * 70)
     print("Crawling Complete:")
-    print(f"  VNExpress:    {len(vnexpress_sentences)} sentences")
+    # print(f"  VNExpress:    {len(vnexpress_sentences)} sentences")
     print(f"  Thanh Niên:   {len(thanhnien_sentences)} sentences")
     print(f"  ─────────────────────")
     print(f"  Total:        {len(all_sentences)} sentences")
