@@ -5,39 +5,57 @@ import string
 import sys
 from sklearn.metrics import accuracy_score
 
-def build_vocab(file_path, max_len=10000, vocab_path=None):
-    if vocab_path is not None:
-        try:
-            with open(vocab_path, 'rb') as f:
-                vocab = pickle.load(f)
-            print(f"Vocab loaded from {vocab_path}")
-            return vocab 
-        except:
-            print(f"Vocab not found at {vocab_path}, building vocab from scratch.")
+import pickle
+import os
 
-    with open(file_path, 'r', encoding='utf-8') as f:
-        sentences = f.readlines()
+def build_vocab(file_path=None, max_len=10000, vocab_path=None):
+    if vocab_path is not None and os.path.exists(vocab_path):
+        with open(vocab_path, 'rb') as f:
+            vocab = pickle.load(f)
+        print(f"Vocab loaded from {vocab_path}")
+        return vocab
 
-    all_words = []
-    for index, sentence in enumerate(sentences):
-        sentence = sentence.strip().lower()
-        sentence = sentence.translate(str.maketrans("", "", string.punctuation))
-        all_words.extend(sentence.split())
+    elif file_path:
+        print(f"Vocab not found at {vocab_path}, building vocab from scratch.")
 
-        sys.stdout.write(f"\rProcessing {file_path}, {index + 1:6d} | {len(sentences)}")
-        sys.stdout.flush()
+        with open(file_path, 'r', encoding='utf-8') as f:
+            sentences = f.readlines()
 
-    word_counts = Counter(all_words)
-    
-    vocab = {word: idx for idx, (word, _) in enumerate(word_counts.most_common(max_len), 1)}
-    vocab['<unk>'] = 0
-    vocab['<pad>'] = len(vocab)
-    vocab['<seqstart>'] = len(vocab)
-    vocab['<seqend>'] = len(vocab)
-    print()
-    with open(vocab_path, 'wb') as f:
-        pickle.dump(vocab, f)
-    return vocab
+        all_words = []
+        for index, sentence in enumerate(sentences):
+            sentence = sentence.strip().lower()
+            sentence = sentence.translate(str.maketrans("", "", string.punctuation))
+            all_words.extend(sentence.split())
+
+            sys.stdout.write(f"\rProcessing {file_path}, {index + 1:6d} | {len(sentences)}")
+            sys.stdout.flush()
+
+        word_counts = Counter(all_words)
+
+        # special token
+        vocab = {
+            "<pad>": 0,
+            "<unk>": 1,
+            "<seqstart>": 2,
+            "<seqend>": 3
+        }
+
+        # create new id
+        start_idx = len(vocab)
+        for idx, (word, _) in enumerate(word_counts.most_common(max_len), start=start_idx):
+            if word not in vocab:
+                vocab[word] = idx
+
+        print()
+
+        if vocab_path is not None:
+            with open(vocab_path, 'wb') as f:
+                pickle.dump(vocab, f)
+
+        return vocab
+
+    else:
+        raise ValueError("No vocab file found and no file_path provided to build from.")
 
 def train(model, train_loader, valid_loader, criterion, optimizer, device, pad_token_id, num_epochs=10):
     train_losses = []
