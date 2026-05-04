@@ -1,0 +1,163 @@
+
+============================================================
+Crawl started at 2026-03-30 17:22:09
+URL: https://dantri.com.vn/the-gioi/
+Pages: 1 to 20
+============================================================
+
+Page 1: 33 articles, 871 sentences
+Page 2: 36 articles, 980 sentences
+Page 3: 36 articles, 756 sentences
+Page 4: 36 articles, 889 sentences
+Page 5: 36 articles, 866 sentences
+Page 6: 36 articles, 904 sentences
+Page 7: 36 articles, 765 sentences
+Page 8: 36 articles, 903 sentences
+Page 9: 36 articles, 839 sentences
+Page 10: 36 articles, 700 sentences
+Page 11: 36 articles, 965 sentences
+Page 12: 36 articles, 911 sentences
+Page 13: 36 articles, 703 sentences
+Page 14: 36 articles, 767 sentences
+Page 15: 36 articles, 762 sentences
+Page 16: 36 articles, 792 sentences
+Page 17: 36 articles, 1006 sentences
+Page 18: 36 articles, 606 sentences
+Page 19: 36 articles, 1199 sentences
+Page 20: 36 articles, 768 sentences
+
+============================================================
+Summary:
+  Total articles: 717
+  Total sentences: 16952
+  Crawled at: 2026-03-30 17:22:09
+============================================================
+
+============================================================
+Crawl started at 2026-03-30 17:38:47
+URL: https://dantri.com.vn/thoi-su/
+Pages: 1 to 20
+============================================================
+
+Page 1: 35 articles, 512 sentences
+Page 2: 44 articles, 559 sentences
+Page 3: 44 articles, 797 sentences
+Page 4: 44 articles, 687 sentences
+Page 5: 44 articles, 825 sentences
+Page 6: 44 articles, 714 sentences
+Page 7: 44 articles, 671 sentences
+Page 8: 44 articles, 674 sentences
+Page 9: 44 articles, 680 sentences
+Page 10: 44 articles, 624 sentences
+Page 11: 44 articles, 648 sentences
+Page 12: 44 articles, 658 sentences
+Page 13: 44 articles, 876 sentences
+Page 14: 44 articles, 899 sentences
+Page 15: 44 articles, 774 sentences
+Page 16: 44 articles, 792 sentences
+Page 17: 44 articles, 643 sentences
+Page 18: 44 articles, 807 sentences
+Page 19: 44 articles, 793 sentences
+Page 20: 44 articles, 678 sentences
+
+============================================================
+Summary:
+  Total articles: 871
+  Total sentences: 14311
+  Crawled at: 2026-03-30 17:38:47
+============================================================
+
+============================================================
+Crawl started at 2026-03-30 17:58:55
+URL: https://dantri.com.vn/phap-luat/
+Pages: 1 to 20
+============================================================
+
+Page 1: 30 articles, 403 sentences
+Page 2: 36 articles, 428 sentences
+Page 3: 36 articles, 504 sentences
+Page 4: 36 articles, 445 sentences
+Page 5: 36 articles, 515 sentences
+Page 6: 36 articles, 468 sentences
+Page 7: 36 articles, 556 sentences
+Page 8: 36 articles, 589 sentences
+Page 9: 36 articles, 529 sentences
+Page 10: 36 articles, 443 sentences
+Page 11: 36 articles, 444 sentences
+Page 12: 36 articles, 494 sentences
+Page 13: 36 articles, 694 sentences
+Page 14: 36 articles, 530 sentences
+Page 15: 36 articles, 468 sentences
+Page 16: 36 articles, 619 sentences
+Page 17: 36 articles, 550 sentences
+Page 18: 36 articles, 448 sentences
+Page 19: 36 articles, 476 sentences
+Page 20: 36 articles, 425 sentences
+
+============================================================
+Summary:
+  Total articles: 714
+  Total sentences: 10028
+  Crawled at: 2026-03-30 17:58:55
+============================================================
+
+============================================================
+Crawl started at 2026-03-30 18:16:17
+URL: https://dantri.com.vn/suc-khoe/
+Pages: 1 to 20
+============================================================
+
+Page 1: 55 articles, 1464 sentences
+Page 2: 60 articles, 1477 sentences
+Page 3: 59 articles, 1514 sentences
+Page 4: 52 articles, 1454 sentences
+Page 5: 52 articles, 1204 sentences
+Page 6: 52 articles, 1197 sentences
+Page 7: 52 articles, 1289 sentences
+Page 8: 44 articles, 1089 sentences
+Page 9: 41 articles, 952 sentences
+Page 10: 36 articles, 943 sentences
+Page 11: 36 articles, 886 sentences
+Page 12: 36 articles, 883 sentences
+Page 13: 36 articles, 968 sentences
+Page 14: 36 articles, 900 sentences
+Page 15: 36 articles, 843 sentences
+Page 16: 36 articles, 1022 sentences
+Page 17: 36 articles, 878 sentences
+Page 18: 36 articles, 947 sentences
+Page 19: 36 articles, 1027 sentences
+Page 20: 36 articles, 904 sentences
+
+============================================================
+Summary:
+  Total articles: 858
+  Total sentences: 21841
+  Crawled at: 2026-03-30 18:16:17
+============================================================
+
+============================================================
+Crawl started at 2026-03-30 18:37:36
+URL: https://dantri.com.vn/doi-song/
+Pages: 1 to 20
+============================================================
+
+Page 1: 45 articles, 1370 sentences
+Page 2: 40 articles, 1052 sentences
+Page 3: 44 articles, 1159 sentences
+Page 4: 44 articles, 1274 sentences
+Page 5: 44 articles, 1341 sentences
+Page 6: 44 articles, 1418 sentences
+
+============================================================
+Summary:
+  Total articles: 297
+  Total sentences: 8756
+  Crawled at: 2026-03-30 18:37:36
+============================================================
+
+============================================================
+Crawl started at 2026-03-30 18:44:47
+URL: https://dantri.com.vn/du-lich/
+Pages: 1 to 20
+============================================================
+
